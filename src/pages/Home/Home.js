@@ -1,7 +1,10 @@
+import HomepageJumbo from '../../components/homePageJumbotron/homepageJumbo'
+
+
 function Home(){
     return(
     <div>
-        <h2>Home</h2>
+        <HomepageJumbo />
     </div>
     )
 }

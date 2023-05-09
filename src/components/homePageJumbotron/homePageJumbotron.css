@@ -1,0 +1,12 @@
+.display-4, .lead{
+    color: #dfdfdf !important;
+}
+
+.container{
+    background-color: #5F5980 !important;
+    border-radius: 10px;
+}
+
+.jumbotron{
+    padding-top: 20px !important;
+}

@@ -1,0 +1,44 @@
+.customColumnWidthStyling{
+    background-color: #bdb4ed;
+}
+
+.customContainerHomePage{
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 10px !important;
+}
+
+.customRowHomePage{
+    margin-top: 50px;
+}
+
+.dogImages{
+    border: none !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.dogImageSize{
+    object-fit: cover;
+    width: 80%;
+    max-height: 100%;
+}
+
+.homePageCustomStyling{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .dogImages{
+        display: none;
+    }
+    .customRowHomePage{
+        justify-content: space-around;
+    }  
+    .customContainerHomePage{
+        max-width: 100%;
+    }
+}

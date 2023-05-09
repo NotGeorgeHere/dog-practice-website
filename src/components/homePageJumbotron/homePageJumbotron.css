@@ -2,11 +2,14 @@
     color: #dfdfdf !important;
 }
 
-.container{
+.customContainerJumbotron{
     background-color: #5F5980 !important;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .jumbotron{
-    padding-top: 20px !important;
+    display: flex !important;
 }

@@ -1,4 +1,7 @@
-function chooseDog(){
+function ChooseDog(){
+
+
+
     return(
     <div>
         <h2>Choose a dog</h2>
@@ -6,4 +9,4 @@ function chooseDog(){
     )
 }
 
-export default chooseDog;
+export default ChooseDog;

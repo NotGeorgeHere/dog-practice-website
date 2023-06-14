@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ViewDogCard from '../../components/viewDogCard/viewDogCard';
 
 function ViewDogs() {
 
@@ -45,7 +46,22 @@ function ViewDogs() {
 
     return (
         <div>
-            <h2>viewDog</h2>
+            
+            <div className='container'>
+                <div className="row justify-content-center">
+                    {dogData.map((object) => {
+                    return(
+                        <ViewDogCard 
+                            id = {object.id}
+                            image = {object.url}
+                            dogName = {object.breeds[0].name}
+                            dogTemperament = {object.breeds[0].temperament}
+                        />
+                    )
+                    })}
+                </div>
+            </div>
+
         </div>
     );
 }

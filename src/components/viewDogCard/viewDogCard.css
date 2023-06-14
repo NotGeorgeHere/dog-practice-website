@@ -1,0 +1,20 @@
+.viewDogImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    
+}
+
+.viewDogImage img {
+    object-fit: cover;
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 575.98px) {
+    .col-12.d-flex {
+      justify-content: center;
+    }
+  }

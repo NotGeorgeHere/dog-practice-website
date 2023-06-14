@@ -36,7 +36,7 @@ function ViewDogs() {
         };
         //Runs the fetchData function, responsible for initiating the API data retrieval and filtering process and updating the dogData state with the filtered data
         fetchData();
-    }, []);
+    }, [initialUrl]);
 
     console.log(dogData)
 

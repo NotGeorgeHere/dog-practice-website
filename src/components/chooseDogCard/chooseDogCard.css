@@ -1,0 +1,8 @@
+.swipers{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.customBtn{
+    margin-bottom: 10px;
+}

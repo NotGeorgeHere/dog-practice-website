@@ -1,0 +1,10 @@
+.ChooseDogHeader{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.ChooseDogDescription{
+    text-align: center;
+    padding-bottom: 30px;
+}

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ChooseDogCard from '../../components/chooseDogCard/chooseDogCard';
+import ViewDogCard from '../../components/viewDogCard/viewDogCard';
+import "./chooseDog.css"
 
 function ChooseDog(){
 
@@ -69,6 +71,7 @@ function ChooseDog(){
         else{
             //Sets operator so that list of liked dogs can be displayed
             setDisplayLikedDogs(true);
+            console.log(likedDogs)
         }
     }
     
@@ -78,18 +81,28 @@ function ChooseDog(){
 
     return(
     <div>
-        <h2>Choose a dog</h2>
+        <h2 className='ChooseDogHeader'>Choose a dog</h2>
+        <h5 className='ChooseDogDescription'>Just press either like or dislike!</h5>
         {/* Checks to see if displayLikeDogs is = true, ie: is the array been looped through completely, if it does it will render the liked dogs list, soon to be card */}
         {displayLikedDogs ? (
         <div>
-          <h2>Liked Dogs</h2>
-          {likedDogs.map((dog, index) => (
-            <div key={index}>{dog.breeds[0].name}</div>
-          ))}
+            <div className='liked-dog-container container'>
+                <h2>Liked Dogs</h2>
+                <div className='liked-dog-list row justify-content-center'> 
+                    {likedDogs.map((dog, index) => (
+                        <ViewDogCard 
+                        id = {dog.id}
+                        image = {dog.url}
+                        dogName = {dog.breeds[0].name}
+                        dogTemperament = {dog.breeds[0].temperament}
+                        />
+                    ))}
+                </div>
+            </div>
         </div>
         /* Ternary operator ie: if the above isn't true then render the cards for the dogs */
       ) : (
-        <div className="card-container">
+        <div className="card-container container d-flex justify-content-center align-items-center">
         
           {currentCardIndex < dogData.length && (
             //Renders the dog card and the handle like and dislikes and will only render if current card index is less then dog data array length

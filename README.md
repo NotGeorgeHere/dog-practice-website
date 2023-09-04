@@ -13,4 +13,4 @@ This project unfortunately took a while to work on due to job searching however,
 
 Github repository: https://github.com/NotGeorgeHere/dog-practice-website
 
-Deployment Link:
+Deployment Link: http://NotGeorgeHere.github.io/dog-practice-website

@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# Dog Adoption Mockup Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+I built this project for one major reason, practice. I learnt a lot of new skills throughout the trilogy Skills 16 week bootcamp in front-end web development. To reinforce that learning however I needed to make sure I made new projects and use the skills I learnt whilst also hopefully learning a few new ones along the way. This project was the main step in this practice, it is a mock-dog adoption website where you can view dogs using the dog api and also choose a dog by liking and disliking on an array of dogs and then being able to view this list of dogs that you like. I reached MVP on this project on 04.09.23. It was made in react and I learnt a lot more about it and the ways in which it could be utilised.
 
-### `npm start`
+This project unfortunately took a while to work on due to job searching however, I was able to give it a last push at the end to ensure it got finished. I think there is a lot done well on this website within the limitations of not using a custom database which, in a real world application, would be used instead of an api. This would give me greater control and would also allow an easy expansion of the MVP to include listing the price of each adoption and adding a shopping kart that you could view and checkout. This may be something I come back and revisit in the future. I learnt a lot throughout this project and think it has reinforced my learning of the fundamentals learnt on the front-end development bootcamp. In the future, and on a possible revisitng of the web-page, I would like to try and improve my design skills through exposure and making more whilst studying design principles.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Alt Image of dog website](./images//projectScreenshot.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment
 
-### `npm test`
+Github repository: https://github.com/NotGeorgeHere/dog-practice-website
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deployment Link:

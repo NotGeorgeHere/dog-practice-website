@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dog-practice-website/static/css/main.46bde239.css",
+    "main.js": "/dog-practice-website/static/js/main.8f80fc82.js",
+    "static/js/787.5b4e6aee.chunk.js": "/dog-practice-website/static/js/787.5b4e6aee.chunk.js",
+    "static/media/dogimage1.png": "/dog-practice-website/static/media/dogimage1.463ed5fb6d9b91675317.png",
+    "static/media/dogbackround.webp": "/dog-practice-website/static/media/dogbackround.d2d7bccddd8be1b11b30.webp",
+    "index.html": "/dog-practice-website/index.html",
+    "main.46bde239.css.map": "/dog-practice-website/static/css/main.46bde239.css.map",
+    "main.8f80fc82.js.map": "/dog-practice-website/static/js/main.8f80fc82.js.map",
+    "787.5b4e6aee.chunk.js.map": "/dog-practice-website/static/js/787.5b4e6aee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46bde239.css",
+    "static/js/main.8f80fc82.js"
+  ]
+}
